@@ -44,12 +44,12 @@ const Home = () => {
   };
 
   return (
-    <div className='h-screen w-full container max-w-[1100px] pt-5 ttttt'>
-      <div>
-      <Slider {...settings} className='max-w-[1100px] m-auto '>
+    <div className='h-screen w-full container pt-5 ttttt'>
+      <div className='max-w-[1100px] m-auto'>
+      <Slider {...settings} className=' m-auto container'>
         {
           swagger.map((item, index) => (
-            <div key={index} className='md:max-w-[300px] h-[200px] px-2'>
+            <div key={index} className=' md:max-w-[300px] h-[200px] px-2'>
               <img className='object-cover w-full h-full' src={item.img} alt="" />
             </div>
           ))

@@ -19,7 +19,7 @@ const Header = () => {
                 <img src={logo} alt="logo" className='w-full'/>
             </div>
           </Link>
-          <h1 className='hidden md:block max-w-[700px] text-center text-lg md:text-xl lg:text-2xl text-[#2e3192] font-semibold'>
+          <h1 className='test text-[10px] md:block max-w-[700px] text-center text-lg md:text-xl lg:text-2xl text-[#2e3192] font-semibold'>
             O‘ZBEKISTON RESPUBLIKASI
             MADANIYAT VAZIRLIGI
             QASHQADARYO VILOYATI
@@ -31,7 +31,7 @@ const Header = () => {
             <Link to={'/'}>
               <div className='max-w-[6
                 0px]'>
-                <img className='w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/2048px-Telegram_alternative_logo.svg.png" alt="Telegram" />
+                <img className='hidden md:w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/2048px-Telegram_alternative_logo.svg.png" alt="Telegram" />
               </div>
             </Link>
           </div>
@@ -44,8 +44,8 @@ const Header = () => {
         </nav>
 
         {/* nav links */}
-        <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:flex items-center justify-between`}>
-          <ul className='flex flex-col md:flex-row items-center justify-between w-full'>
+        <div className={`${isMobileMenuOpen ? 'block' : 'hidden'}  md:flex items-center justify-between`}>
+          <ul className='flex flex-col gap-4 md:flex-row items-center justify-between w-full'>
             <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
               <Link to='/'>Asosiy ma'lumotlar</Link>
             </li>
