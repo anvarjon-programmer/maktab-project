@@ -14,6 +14,7 @@ import AxloqQoidalar from "./BMS-togrisida/Axloq-qoidalar";
 import LokalHujat from "./BMS-togrisida/Lokal-hujat";
 import JamoaShartnoma from "./BMS-togrisida/JamoaShartnoma";
 import MalakaTavsifi from "./BMS-togrisida/Malaka-tavsifi";
+import Importantinfo from "./Importantinfo";
 
 
 export {
@@ -33,5 +34,6 @@ export {
     AxloqQoidalar,
     LokalHujat,
     JamoaShartnoma,
-    MalakaTavsifi
+    MalakaTavsifi,
+    Importantinfo
 }

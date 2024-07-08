@@ -13,13 +13,13 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md">
       <div className=" mx-auto px-4 md:container">
-        <nav className='gap-2 flex items-center justify-between py-4'>
+        <nav className='flex items-center justify-between py-4'>
           <Link to={'/'} >
-            <div className=' md:max-w-[150px]'>
-                <img src={logo} alt="logo" className='w-full'/>
+            <div className='max-w-[150px]'>
+                <img src={logo} alt="logo" className=' md:w-full'/>
             </div>
           </Link>
-          <h1 className='test text-[8px] md:block max-w-[700px] text-center text-lg md:text-xl lg:text-2xl text-[#2e3192] font-semibold'>
+          <h1 className='text-[10px] md:block max-w-[700px] text-center text-lg md:text-xl lg:text-2xl text-[#2e3192] font-semibold'>
             O‘ZBEKISTON RESPUBLIKASI
             MADANIYAT VAZIRLIGI
             QASHQADARYO VILOYATI
@@ -46,7 +46,7 @@ const Header = () => {
         <div className={`${isMobileMenuOpen ? 'block' : 'hidden'}  md:flex items-center justify-between`}>
           <ul className='flex flex-col gap-4 md:flex-row items-center justify-between w-full'>
             <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
-              <Link to='/'>Asosiy ma'lumotlar</Link>
+              <Link to='/importantinfo'>Asosiy ma'lumotlar</Link>
             </li>
 
             <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white relative'

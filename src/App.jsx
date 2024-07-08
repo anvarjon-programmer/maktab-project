@@ -2,12 +2,13 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Footer, Header } from './components'
-import {  AxloqQoidalar, BmsmUstavi, FarmonlarQarorlar, Guvohnoma, Home, JamoaShartnoma, KodeksQonunlar, Konstututsiya, LokalHujat, MaktabRahbaryati, MaktabStrakturasi, MalakaTavsifi, VazirlarMahkamasiqarori, XayatQarori, Xodimlar, YoqotganHujatlar } from './pages'
+import {  AxloqQoidalar, BmsmUstavi, FarmonlarQarorlar, Guvohnoma, Home, Importantinfo, JamoaShartnoma, KodeksQonunlar, Konstututsiya, LokalHujat, MaktabRahbaryati, MaktabStrakturasi, MalakaTavsifi, VazirlarMahkamasiqarori, XayatQarori, Xodimlar, YoqotganHujatlar } from './pages'
 
 function App() {
 
   return (
     <div className='max-w-[1200px] border-[4px] m-auto mt-3 shadow-custom'>
+        <div className="coantainer">
         <BrowserRouter>
          <Header/>
           <Routes>
@@ -18,6 +19,7 @@ function App() {
             <Route path='/vazirlarMahkamasiqarori' element={<VazirlarMahkamasiqarori/>}/>
             <Route path='/xayatQarori' element={<XayatQarori/>}/>
             <Route path='/yoqotganHujatlar' element={<YoqotganHujatlar/>}/>
+            <Route path='/importantinfo' element={<Importantinfo/>}/>
 
             <Route path='/maktabRahbaryati' element={<MaktabRahbaryati/>}/>  
             <Route path='/xodimlar' element={<Xodimlar/>}/>  
@@ -31,6 +33,7 @@ function App() {
           </Routes> 
          <Footer/>
         </BrowserRouter>
+        </div>
     </div>
   )
 }
