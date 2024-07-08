@@ -16,16 +16,16 @@ const Home = () => {
     <div className='h-screen container py-4'>
       <Slider {...settings}>
       <div>
-        <h3>1</h3>
+        <img src="https://img.freepik.com/free-photo/texture-treble-clef-dark-background-isolated-generative-ai_169016-29581.jpg" alt="" />
       </div>
       <div>
-        <h3>2</h3>
+        <img src="https://media.istockphoto.com/id/1076840920/vector/music-background.jpg?s=612x612&w=0&k=20&c=bMG2SEUYaurIHAjtRbw7bmjLsXyT7iJUvAM5HjL3G3I=" alt="" />
       </div>
       <div>
-        <h3>3</h3>
+      <img src="https://img.freepik.com/free-photo/texture-treble-clef-dark-background-isolated-generative-ai_169016-29581.jpg" alt="" />
       </div>
       <div>
-        <h3>4</h3>
+      <img src="https://media.istockphoto.com/id/1076840920/vector/music-background.jpg?s=612x612&w=0&k=20&c=bMG2SEUYaurIHAjtRbw7bmjLsXyT7iJUvAM5HjL3G3I=" alt="" />
       </div>
       <div>
         <h3>5</h3>
