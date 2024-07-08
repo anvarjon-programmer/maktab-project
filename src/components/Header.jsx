@@ -12,12 +12,14 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4">
+      <div className=" mx-auto px-4 md:container">
         <nav className='flex items-center justify-between py-4'>
-          <Link to={'/'}>
-            <img src={logo} alt="logo" className='w-28' />
+          <Link to={'/'} >
+            <div className='max-w-[150px]'>
+                <img src={logo} alt="logo" className='w-full'/>
+            </div>
           </Link>
-          <h1 className='hidden md:block text-center text-lg md:text-xl lg:text-2xl text-[#2e3192] font-semibold'>
+          <h1 className='hidden md:block max-w-[700px] text-center text-lg md:text-xl lg:text-2xl text-[#2e3192] font-semibold'>
             O‘ZBEKISTON RESPUBLIKASI
             MADANIYAT VAZIRLIGI
             QASHQADARYO VILOYATI
@@ -27,7 +29,10 @@ const Header = () => {
           </h1>
           <div className='w-12 md:w-16 lg:w-20'>
             <Link to={'/'}>
-              <img className='w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/2048px-Telegram_alternative_logo.svg.png" alt="Telegram" />
+              <div className='max-w-[6
+                0px]'>
+                <img className='w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/2048px-Telegram_alternative_logo.svg.png" alt="Telegram" />
+              </div>
             </Link>
           </div>
           <button
@@ -53,7 +58,7 @@ const Header = () => {
                 Me'yoriy-huquqiy hujatlar
               </Link>
               {isDocumentsDropdownOpen && (
-                <div className="absolute top-14 left-0 z-10 bg-[#268382] divide-y divide-gray-100 shadow w-full md:w-72 text-white mt-2">
+                <div className="absolute top-10 left-0 z-10 bg-[#268382] divide-y divide-gray-100 shadow w-full md:w-72 text-white mt-2">
                   <ul className="py-2 text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                     {documents.map((element, index) => (
                       <li className='border-white border-t text-center h-14 flex items-center justify-center' key={index}>
@@ -75,7 +80,7 @@ const Header = () => {
                 BMSM to‘g‘risida ma’lumotlar
               </Link>
               {isBmsDropdownOpen && (
-                <div className="absolute top-14 left-0 z-10 bg-[#268382] divide-y divide-gray-100 shadow w-full md:w-72 text-white mt-2">
+                <div className="absolute top-10 left-0 z-10 bg-[#268382] divide-y divide-gray-100 shadow w-full md:w-72 text-white mt-2">
                   <ul className="py-2 text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                     {bmsLink.map((element, index) => (
                       <li className='border-white border-t text-center h-14 flex items-center justify-center' key={index}>
@@ -97,7 +102,7 @@ const Header = () => {
                 O‘quv jarayoni
               </Link>
               {isJarayonDropdownOpen && (
-                <div className="absolute top-14 left-0 z-10 bg-[#268382] divide-y divide-gray-100 shadow w-full md:w-72 text-white mt-2">
+                <div className="absolute top-10 left-0 z-10 bg-[#268382] divide-y divide-gray-100 shadow w-full md:w-72 text-white mt-2">
                   <ul className="py-2 text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                     {jarayonLink.map((element, index) => (
                       <li className='border-white border-t text-center h-14 flex items-center justify-center' key={index}>
