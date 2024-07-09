@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo2.png';
 import { useState } from 'react';
 import documents, { bmsLink, jarayonLink } from '../services/linkData';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -15,11 +15,11 @@ const Header = () => {
       <div className=" mx-auto px-4 md:container">
         <nav className='flex items-center justify-between py-4'>
           <Link to={'/'} >
-            <div className='max-w-[150px]'>
+            <div className='max-w-[100px]'>
                 <img src={logo} alt="logo" className=' md:w-full'/>
             </div>
           </Link>
-          <h1 className='text-[10px] md:block max-w-[700px] text-center text-lg md:text-xl lg:text-2xl text-[#2e3192] font-semibold'>
+          <h1 className='text-[10px] md:block max-w-[900px] text-center  lg:text-3xl text-[#2e3192] font-semibold'>
             O‘ZBEKISTON RESPUBLIKASI
             MADANIYAT VAZIRLIGI
             QASHQADARYO VILOYATI
@@ -43,8 +43,8 @@ const Header = () => {
         </nav>
 
         {/* nav links */}
-        <div className={`${isMobileMenuOpen ? 'block' : 'hidden'}  md:flex items-center justify-between`}>
-          <ul className='flex flex-col gap-4 md:flex-row items-center justify-between w-full'>
+        <div className={`${isMobileMenuOpen ? 'block' : 'hidden'}   md:flex items-center justify-between`}>
+          <ul className=' flex flex-col gap-4  md:flex-row items-center justify-between w-full'>
             <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
               <Link to='/importantinfo'>Asosiy ma'lumotlar</Link>
             </li>

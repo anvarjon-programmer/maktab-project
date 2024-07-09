@@ -1,6 +1,7 @@
 import React from 'react'
 import { bms } from '../services/swagger-img'
 import map from '../assets/map.jpg'
+import { Link } from 'react-router-dom'
 
 const Importantinfo = () => {
   return (
@@ -16,13 +17,26 @@ const Importantinfo = () => {
             </li>
           ))
         }
+        <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
+        Aloqa telefoni:
+        <b>
+          <Link to='#'>(+998) 93-195-91-27, 93-166-66-99</Link>
+        </b>
+            </li>
+
+            <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
+        Elektron pochta manzili:
+        <b>
+          <Link to=' bmsm34tv@gmail.com'> bmsm34tv@gmail.com</Link>
+        </b>
+            </li>
       </ul>
     </section>
 
     <section className='mt-10 container px-4'>
       <h2 className='text-center mb-6 md:text-3xl'>Ta’lim yo‘nalishlari</h2>
     <table class="border-collapse border border-gray-400  m-auto">
-            <thead>
+            <thead className='bg-[#268382]'>
                 <tr>
                     <th className="border border-gray-400 px-4 py-2">NN</th>
                     <th className="border border-gray-400 px-4 py-2">Ta'lim yo'nalishi</th>
@@ -119,11 +133,11 @@ const Importantinfo = () => {
         </table>
     </section>
 
-    <section className='container w-full flex '>
+    {/* <section className='container w-full flex '>
       <div className='m-auto mt-8'>
       <img className='w-full' src={map} alt="" />
       </div>
-    </section>
+    </section> */}
 
     </>
   )
