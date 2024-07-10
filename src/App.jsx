@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Footer, Header } from './components'
 import {  AxloqQoidalar, BmsmUstavi, FarmonlarQarorlar, Guvohnoma, Home, Importantinfo, JamoaShartnoma, KodeksQonunlar, Konstututsiya, LokalHujat, MaktabRahbaryati, MaktabStrakturasi, MalakaTavsifi, VazirlarMahkamasiqarori, XayatQarori, Xodimlar, YoqotganHujatlar } from './pages'
+import OquvDasturi from './pages/Oquv-Dasturi'
+import Festival from './pages/Festival'
 
 function App() {
 
@@ -30,6 +32,8 @@ function App() {
             <Route path='/lokalHujat' element={<LokalHujat/>}/>  
             <Route path='/jamoaShartnoma' element={<JamoaShartnoma/>}/>  
             <Route path='/malakaTavsifi' element={<MalakaTavsifi/>}/>  
+            <Route path='/oquvDasturi' element={<OquvDasturi/>}/>
+            <Route path='/festival' element={<Festival/>}/>
           </Routes> 
          <Footer/>
         </BrowserRouter>

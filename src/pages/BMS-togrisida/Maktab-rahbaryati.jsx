@@ -7,7 +7,7 @@ const MaktabRahbaryati = () => {
   return (
     <section className='bg-[#eee] mt-10'>
       <div className='bg-white max-w-[1000px] pt-10 m-auto'>
-        <div className='p-10 md:flex items-center justify-betweengap-8'>
+        <div className='p-10 md:flex items-center justify-between gap-8'>
           <div className='md:max-w-[300px]'>
            <img className='w-full' src={img1} alt="" />
           </div>

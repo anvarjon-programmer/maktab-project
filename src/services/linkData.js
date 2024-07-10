@@ -41,19 +41,19 @@ export const bmsLink = [
     },
     {
         title:'BMSM ustavi',
-        url:'/bmsmUstavi'
+        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Ustav.pdf'
     },
     {
         title:'Yuridik shaxsni davlat ro‘yxatidan o‘tkazish to‘g‘risida guvohnoma',
-        url:'/guvohnoma'
+        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Guvohnoma.pdf'
     },
-    {
-        title:'Maktab strukturasi',
-        url:'/maktabStrakturasi'
-    },
+    // {
+    //     title:'Maktab strukturasi',
+    //     url:'/maktabStrakturasi'
+    // },
     {
         title:'Odob-axloq qoidalari',
-        url:'/axloqQoidalar'
+        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_odob_axloq_qoidalari.pdf'
     },
     {
         title:'Lokal hujjatlar',
@@ -61,11 +61,11 @@ export const bmsLink = [
     },
     {
         title:'Jamoa shartnomasi',
-        url:'/jamoaShartnoma'
+        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_jamoa_shartnomasi.pdf'
     },
     {
         title:'Malaka tavsiflari',
-        url:'/malakaTavsifi'
+        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_strukturasi.pdf'
     },
 
     
@@ -76,40 +76,28 @@ export const bmsLink = [
 
 export const jarayonLink = [
     {
-        title:'Maktab rahbariyati',
-        url: "/maktabRahbaryati"
+        title:"BMSM o'quv ish rejasi",
+        url: "https://zarkentbmsm.uz/PDFlar/34_BMSM_Ish_rejasi.pdf"
     },
     {
-        title:' Maktab pedagog xodimlari ',
-        url:'/xodimlar' 
+        title:' Ochiq darslar jadvali ',
+        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Ochiq_darslar.pdf' 
     },
     {
-        title:'BMSM ustavi',
-        url:'/bmsmUstavi'
+        title:"O'quv dasturlari",
+        url:'/oquvDasturi'
     },
     {
-        title:'Yuridik shaxsni davlat ro‘yxatidan o‘tkazish to‘g‘risida guvohnoma',
-        url:'/guvohnoma'
+        title:"Davlat ta'lim talablari",
+        url:'https://zarkentbmsm.uz/PDFlar/Davlat_talim_talabi.pdf'
     },
     {
-        title:'Maktab strukturasi',
-        url:'/maktabStrakturasi'
+        title:'Tanlovlar, festivallar',
+        url:'/festival'
     },
     {
-        title:'Odob-axloq qoidalari',
-        url:'/axloqQoidalar'
-    },
-    {
-        title:'Lokal hujjatlar',
-        url:'/lokalHujat'
-    },
-    {
-        title:'Jamoa shartnomasi',
-        url:'/jamoaShartnoma'
-    },
-    {
-        title:'Malaka tavsiflari',
-        url:'/malakaTavsifi'
+        title:'Viloyat BMSMlar direktorlar Kengashi ish rejasi',
+        url:'https://zarkentbmsm.uz/PDFlar/Direktorlar_kengashi_ish_rejasi.pdf'
     },
 
     
