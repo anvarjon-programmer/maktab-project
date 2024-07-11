@@ -5,6 +5,7 @@ import { Footer, Header } from './components'
 import {  AxloqQoidalar, BmsmUstavi, FarmonlarQarorlar, Guvohnoma, Home, Importantinfo, JamoaShartnoma, KodeksQonunlar, Konstututsiya, LokalHujat, MaktabRahbaryati, MaktabStrakturasi, MalakaTavsifi, VazirlarMahkamasiqarori, XayatQarori, Xodimlar, YoqotganHujatlar } from './pages'
 import OquvDasturi from './pages/Oquv-Dasturi'
 import Festival from './pages/Festival'
+import Galery from './pages/Galery'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
          <Header/>
           <Routes>
             <Route path='/' element={<Home/>}/>
+            <Route path='/galery' element={<Galery/>}/>
             <Route path='/konstututsiya' element={<Konstututsiya/>}/>
             <Route path='/kodeksQonunlar' element={<KodeksQonunlar/>}/>
             <Route path='/farmonlarQarorlar' element={<FarmonlarQarorlar/>}/> 

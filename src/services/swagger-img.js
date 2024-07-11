@@ -221,3 +221,48 @@ export const farmon = [
         title:"O‘zbekiston Respublikasi Prezidentining 2022-yil 2-fevraldagi “Madaniyat va san’at sohasini yanada rivojlantirishga doir qo‘shimcha chora-tadbirlar to‘g‘risida”gi PQ-112-son qarori"
     },
 ]
+
+
+
+export const cartImg = [
+    {
+        img:"http://localhost:3000/static/media/photo_2024-04-05_09-59-26.8467d3ec69410595da71.jpg",
+        title:`“Bo’zatov Fest 2024” tanlovi davom etmoqda.`
+    },
+    {
+        img:"http://localhost:3000/static/media/photo_2024-04-24_16-05-17.1f6a4d858f578a5a4de9.jpg",
+        title:`2024-yil 24- aprel kuni Qashqadaryo viloyati Mirishkor tumani 19-son bolalar musiqa va sanat`
+    },
+    {
+        img:"http://localhost:3000/static/media/photo_2024-05-10_16-14-53.5adbecabad2eb3424f8c.jpg",
+        title:`Qashqadaryo viloyati Oila va xotin-qizlar boshqarmasi Mirishkor tuman Oila va xotin-qizlar boʻlimi`
+    },
+    {
+        img:"http://localhost:3000/static/media/photo_2024-04-09_15-29-31.5f1dfcc1944f8226684e.jpg",
+        title:`9-aprel – Amir Temur tavallud topgan kun!`
+    },
+    {
+        img:"http://localhost:3000/static/media/photo_2024-04-24_16-05-17.1f6a4d858f578a5a4de9.jpg",
+        title:`Qashqadaryo viloyat Mirishkor tumani 19-son Bolalar musiqa va sanʼat maktabida dars mashgʻulotlari`
+    },
+    {
+        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
+        title:`Mirishkor  Tuman 19 BMSM navruz Kurbonova`
+    },
+    {
+        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
+        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
+    },
+    {
+        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
+        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
+    },{
+        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
+        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
+    },
+
+
+
+ 
+]
+
