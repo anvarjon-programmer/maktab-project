@@ -265,3 +265,141 @@ th {
   *{
     border: 1px solid red;
   } */
+
+  
+.wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 25px;
+}
+
+.wrapper .wrapper-left-link{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper-left-link a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    padding: 10px 0;
+    border-bottom: 2px solid #732323;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper .wrapper-right-content{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.wrapper-right-content .wrapper-right-first-box{
+    width: 100%;
+}
+
+.wrapper-right-first-box .wr-ri-first-box-title{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.wr-ri-first-box-title h1{
+    font-size: 21px;
+    color: #00008B;
+    font-weight: 700;
+}
+
+.wrapper-right-first-box .wr-ri-first-box-wrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.wr-ri-first-box-wrap-img img{
+    width: 300px;
+}
+
+.wr-ri-first-box-wrap .wr-ri-first-box-wrap-text{
+    padding: 0 15px;
+}
+
+.wr-ri-first-box-wrap-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.wr-ri-first-box-wrap-text a{
+    font-size: 18px;
+    color: #00008B;
+    text-decoration: none;
+}
+
+.wr-ri-first-box-wrap-text a:hover{
+    text-decoration: underline;
+}
+
+.first-section-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.first-section-main .first-top-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 25px 0;
+}
+
+.first-section-main .first-body-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.first-body-main .calendar-main-first{
+    width: 350px;
+    height: auto;
+}
+
+.calendar-main-first .calendar-heading{
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    background-color: #732323;
+    text-align: center;
+}
+
+.calendar-heading h2{
+    font-size: 20px;
+}
+
+.calendar-heading h2 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
