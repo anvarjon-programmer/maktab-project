@@ -7,3 +7,8 @@
 .slick-next::before {
   color: red; /* Change the color to red */
 }
+
+*{
+  list-style: none;
+  text-decoration: none;
+}
