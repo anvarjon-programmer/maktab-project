@@ -19,13 +19,8 @@ const Header = () => {
                 <img src={logo} alt="logo" className=' md:w-full'/>
             </div>
           </Link>
-          <h1 className='text-[10px] md:block max-w-[900px] text-center  lg:text-3xl text-[#2e3192] font-semibold'>
-            O‘ZBEKISTON RESPUBLIKASI
-            MADANIYAT VAZIRLIGI
-            QASHQADARYO VILOYATI
-            MADANIYAT BOSHQARMASI
-            MIRISHKOR TUMANI
-            19-SON BOLALAR MUSIQA VA SAN'AT MAKTABI
+          <h1 className='text-[10px] md:block max-w-[700px] text-center  lg:text-3xl text-[#2e3192] font-semibold'>
+            MIRISHKOR TUMAN 19-SON BOLALLAR MUSIQA VA SAN'AT MAKTABI
           </h1>
           <div className='w-12 md:w-16 lg:w-20'>
             <Link to={'/'}>
