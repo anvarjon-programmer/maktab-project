@@ -1,14 +1,23 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import './carousel.css'; // Import the custom CSS file
 import Slider from "react-slick";
 import swagger from '../services/swagger-img';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
-import maktabRouteLink from '../services/maktabRouteLink';
-import HomeUnder from './HomeUnder';
-import Yanglilar from './Yanglilar';
+import welcome from '../assets/video/velocome2.mp4'
+import home1 from '../assets/home-img/home1.jpg';
+import home2 from '../assets/home-img/home2.jpg';
+import home3 from '../assets/home-img/home3.jpg';
+import home4 from '../assets/home-img/home4.jpg';
+import home5 from '../assets/home-img/home5.jpg';
+import home6 from '../assets/home-img/home6.jpg';
+import home7 from '../assets/home-img/home7.jpg';
+import home8 from '../assets/home-img/home8.jpg';
+import home9 from '../assets/home-img/home9.jpg';
+import home10 from '../assets/home-img/home10.jpg';
+// import nazarbekov from '../assets/home-img/nazarbekov.MOV'
+
+
 
 const Home = () => {
   const [data,setData] = useState([])
@@ -87,9 +96,63 @@ const Home = () => {
       </Slider>
       </div>
         
-        <div>
-          <video src=""></video>
+      <div className='max-w-[1100px] m-auto my-10'>
+      <div className='md: flex items-center'>
+      <div className='w-[800px]'>
+        <video className='w-full h-[600px] object-cover rounded-lg' src={welcome} controls></video>
+      </div>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-4 bg-gray-100'>
+      <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src={home1} alt={`Gallery image `}
+            className="w-full object-cover h-[200px] sm:h-[250px] lg:h-[300px] transition-opacity duration-300 hover:opacity-80"/>
+          <div className="absolute inset-0 bg-black bg-opacity-25 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+            <p className="text-white text-lg font-semibold">19-maktab</p>
+          </div>
         </div>
+        <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src={home1} alt={`Gallery image `}
+            className="w-full object-cover h-[200px] sm:h-[250px] lg:h-[300px] transition-opacity duration-300 hover:opacity-80"/>
+          <div className="absolute inset-0 bg-black bg-opacity-25 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+            <p className="text-white text-lg font-semibold">19-maktab</p>
+          </div>
+        </div>
+        <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src={home2} alt={`Gallery image `}
+            className="w-full object-cover h-[200px] sm:h-[250px] lg:h-[300px] transition-opacity duration-300 hover:opacity-80"/>
+          <div className="absolute inset-0 bg-black bg-opacity-25 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+            <p className="text-white text-lg font-semibold">19-maktab</p>
+          </div>
+        </div>
+        <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src={home3} alt={`Gallery image `}
+            className="w-full object-cover h-[200px] sm:h-[250px] lg:h-[300px] transition-opacity duration-300 hover:opacity-80"/>
+          <div className="absolute inset-0 bg-black bg-opacity-25 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+            <p className="text-white text-lg font-semibold">19-maktab</p>
+          </div>
+        </div>
+        <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src={home4} alt={`Gallery image `}
+            className="w-full object-cover h-[200px] sm:h-[250px] lg:h-[300px] transition-opacity duration-300 hover:opacity-80"/>
+          <div className="absolute inset-0 bg-black bg-opacity-25 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+            <p className="text-white text-lg font-semibold">19-maktab</p>
+          </div>
+        </div>
+        <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src={home5} alt={`Gallery image `}
+            className="w-full object-cover h-[200px] sm:h-[250px] lg:h-[300px] transition-opacity duration-300 hover:opacity-80"/>
+          <div className="absolute inset-0 bg-black bg-opacity-25 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+            <p className="text-white text-lg font-semibold">19-maktab</p>
+          </div>
+        </div>
+       
+      </div>
+      </div>
+
+      <div>
+        {/* <video src={nazarbekov}></video> */}
+      </div>
+      </div>
+
     </div>
   );
 };

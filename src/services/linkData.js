@@ -47,10 +47,10 @@ export const bmsLink = [
         title:'Yuridik shaxsni davlat ro‘yxatidan o‘tkazish to‘g‘risida guvohnoma',
         url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Guvohnoma.pdf'
     },
-    // {
-    //     title:'Maktab strukturasi',
-    //     url:'/maktabStrakturasi'
-    // },
+    {
+        title:'Maktab strukturasi',
+        url:'/maktabStrakturasi'
+    },
     {
         title:'Odob-axloq qoidalari',
         url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_odob_axloq_qoidalari.pdf'
