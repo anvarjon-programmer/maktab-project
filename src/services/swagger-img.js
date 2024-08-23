@@ -55,11 +55,11 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasining to‘liq nomi:',
-        addition:'Toshkent viloyati Madaniyat boshqarmasi tasarrufidagi Parkent tumani 34-sonli bolalar musiqa va san’at maktabi'
+        addition:"Mirishkor tumani 19-son blallar musiqa va san'at maktabi"
     },
     {
         title:'Ta’lim muassasasining qisqartirilgan nomi:',
-        addition:' Parkent tumani 34-sonli BMSM'
+        addition:'Mirishkor tumani 19-sonli BMSM'
     },
     {
         title:'Ta’lim muassasasining muassisi:',
@@ -69,10 +69,10 @@ export const bms = [
         title:'Ta’lim muassasasining yuqori organi: ',
         addition:'Toshkent viloyati Madaniyat boshqarmasi'
     },
-    {
-        title:'',
-        addition:''
-    },
+    // {
+    //     title:'',
+    //     addition:''
+    // },
     {
         title:'Ta’lim turiga tegishliligi:',
         addition:'Maktabdan tashqari ta’lim muassasasi'
@@ -88,10 +88,6 @@ export const bms = [
     {
         title:'Ta’lim muassasasining manzili:',
         addition:'Parkent tumani, Zarkent qishlog‘i, Davlatobod MFY'
-    },
-    {
-        title:'Mo‘ljal:',
-        addition:' 46-sonli umumiy o‘rta maktabi'
     },
     {
         title:'Ta’lim muassasasi ma’muriyatining ish kuni tartibi:',

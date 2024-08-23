@@ -104,3 +104,35 @@ export const jarayonLink = [
 ]
 
 
+export const homforto = [
+    {
+        id:1,
+        img:"https://zarkentbmsm.uz/img/bulim_f_no_torli.svg"
+    },
+    {
+        id:1,
+        img:"https://zarkentbmsm.uz/img/bulim_f_no_torli.svg"
+    },
+    {
+        id:1,
+        img:"https://zarkentbmsm.uz/img/bulim_f_no_torli.svg"
+    },
+    {
+        id:1,
+        img:"https://zarkentbmsm.uz/img/bulim_f_no_torli.svg"
+    },
+    {
+        id:1,
+        img:"https://zarkentbmsm.uz/img/bulim_f_no_torli.svg"
+    },
+    {
+        id:1,
+        img:"https://zarkentbmsm.uz/img/bulim_f_no_torli.svg"
+    },
+    {
+        id:1,
+        img:"https://zarkentbmsm.uz/img/bulim_f_no_torli.svg"
+    },
+]
+
+

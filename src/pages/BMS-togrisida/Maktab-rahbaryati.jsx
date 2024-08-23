@@ -17,13 +17,13 @@ const MaktabRahbaryati = () => {
           <div className='md:max-w-[300px]'>
            <img className='w-full' src={raxbar1} alt="" />
           </div>
-          <div className='mt-7 md:mb-10'>
+          {/* <div className='mt-7 md:mb-10'>
             <h2 className='text-3xl font-bold'>Raxmonov Umidjon Ibroxim o‘g‘li</h2>
             <h3 className='text-2xl my-3 font-medium'>34-sonli bolalar musiqa va san’at maktabi direktori</h3>
             <p className='text-xl'>Telefon: +998 55 901-54-34</p>
             <p className='text-xl my-1'>Qabul kunlari: Dushanba - 1000 - 1200</p>
             <p className='text-xl'>Chorshanba - 1000 - 1200</p>
-          </div>
+          </div> */}
         </div>
       </div>
 

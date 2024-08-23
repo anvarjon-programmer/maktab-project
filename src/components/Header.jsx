@@ -41,7 +41,7 @@ const Header = () => {
         <div className={`${isMobileMenuOpen ? 'block' : 'hidden'}   md:flex items-center justify-between`}>
           <ul className=' flex flex-col gap-4  md:flex-row items-center justify-between w-full'>
             <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
-              <Link to='/importantinfo'>Asosiy ma'lumotlar</Link>
+              <Link to='/yangliklar'>Yanglilklar</Link>
             </li>
 
             <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white relative'

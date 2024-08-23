@@ -6,6 +6,8 @@ import {  AxloqQoidalar, BmsmUstavi, FarmonlarQarorlar, Guvohnoma, Home, Importa
 import OquvDasturi from './pages/Oquv-Dasturi'
 import Festival from './pages/Festival'
 import Galery from './pages/Galery'
+import Tashabus from './pages/Tashabus'
+import Yanglilar from './pages/Yanglilar'
 
 function App() {
 
@@ -36,6 +38,8 @@ function App() {
             <Route path='/malakaTavsifi' element={<MalakaTavsifi/>}/>  
             <Route path='/oquvDasturi' element={<OquvDasturi/>}/>
             <Route path='/festival' element={<Festival/>}/>
+            <Route path='/tashabus' element={<Tashabus/>}/>
+            <Route path='/yangliklar' element={<Yanglilar/>}/>
           </Routes> 
          <Footer/>
         </BrowserRouter>
