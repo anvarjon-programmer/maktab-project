@@ -44,6 +44,18 @@ export const bmsLink = [
         title:'Sahna nutqi',
         url:'https://docs.google.com/document/d/1Yvy3orL8lyXRZPn9qxXmDq-I18VWAX2C/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
+    {
+        title:'Fortopiano ansambil',
+        url:'https://docs.google.com/document/d/1WC69TtFJV9LBZW3-vm8Mb_ernx-CiQeT/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
+    },
+    {
+        title:'Balet',
+        url:'https://docs.google.com/document/d/15IgRMCsNKQnaHzD3RUhNrLqFFQ-7hQFR/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
+    },
+    {
+        title:"Damli Cholg'ular",
+        url:'https://docs.google.com/document/d/1bMpuRyJ-O1TEQquW5qDQCdSYhsw6dEwg/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
+    },
 
     
 ]
