@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaTelegram } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io";
+import { FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -41,9 +44,27 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p className='text-white text-xl mt-5'>© UNI PROJECT</p>
+       <div className='flex items-center justify-between'>
+       <div>
+       <p className='text-white text-xl mt-5'>© UNI PROJECT</p>
         <p className='text-white text-xl'>2022 Barcha huquqlar himoyalangan</p>
         <p className='text-white text-xl pb-5'>Veb-saytdagi ma'lumotlardan foydalanilganda, manbaga havola qilish majburiy</p>
+       </div>
+       <div>
+       <div className='flex items-center gap-2 text-xl text-white'>
+        <Link to={''} className='text-xl'>
+        <FaTelegram/>
+        </Link>
+        <Link to={''} className='text-xl'>
+        <IoLogoInstagram/>
+        </Link>
+        <Link to={''} className='text-xl'>
+        <FaYoutube/>
+        </Link>
+       </div>
+       <Link to={''} className='text-white'>+998  99-948-99-63 </Link>
+       </div>
+       </div>
       </div>
     </footer>
   )

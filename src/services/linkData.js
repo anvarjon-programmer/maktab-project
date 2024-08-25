@@ -44,22 +44,6 @@ export const bmsLink = [
         title:'Sahna nutqi',
         url:'https://docs.google.com/document/d/1Yvy3orL8lyXRZPn9qxXmDq-I18VWAX2C/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
-    {
-        title:'',
-        url:''
-    },
-    {
-        title:'Lokal hujjatlar',
-        url:'/lokalHujat'
-    },
-    {
-        title:'Jamoa shartnomasi',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_jamoa_shartnomasi.pdf'
-    },
-    {
-        title:'Malaka tavsiflari',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_strukturasi.pdf'
-    },
 
     
 ]

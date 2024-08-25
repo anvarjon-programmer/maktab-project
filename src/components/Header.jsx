@@ -113,9 +113,9 @@ const Header = () => {
             <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
               <Link to='/galery'>Maktab galereyasi</Link>
             </li>
-            <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
+            {/* <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
               <Link to='/'>Аloqa</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
