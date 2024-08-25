@@ -11,8 +11,12 @@ const MaktabRahbaryati = () => {
     <section className='bg-[#eee] mt-10'>
       <div className='bg-white max-w-[1000px] pt-10 m-auto'>
         <div className='p-10 md:flex items-center justify-between gap-8'>
-          <div className='md:max-w-[300px]'>
+          <div className='md:max-w-[400px]'>
            <img className='w-full' src={raxbar1} alt="" />
+          </div>
+          <div className='mt-7 md:mb-10'>
+            <h2 className='text-3xl font-bold'>Tilavova Hanifa</h2>
+            <h3 className='text-2xl my-3 font-medium'>19-sonli bolalar musiqa va san’at maktabi <br />Direktori</h3>
           </div>
         </div>
       </div>

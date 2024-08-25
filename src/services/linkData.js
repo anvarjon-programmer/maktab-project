@@ -35,25 +35,18 @@ export const bmsLink = [
         title:'Maktab rahbariyati',
         url: "/maktabRahbaryati"
     },
+    
     {
-        title:' Maktab pedagog xodimlari ',
-        url:'/xodimlar' 
+        title:'An anaviy xonanda dasturi',
+        url:'https://docs.google.com/document/d/1lUM5FkuavZyrBhBDMykzFeXJuecXYxEW/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
     {
-        title:'BMSM ustavi',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Ustav.pdf'
+        title:'Sahna nutqi',
+        url:'https://docs.google.com/document/d/1Yvy3orL8lyXRZPn9qxXmDq-I18VWAX2C/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
     {
-        title:'Yuridik shaxsni davlat ro‘yxatidan o‘tkazish to‘g‘risida guvohnoma',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Guvohnoma.pdf'
-    },
-    {
-        title:'Maktab strukturasi',
-        url:'/maktabStrakturasi'
-    },
-    {
-        title:'Odob-axloq qoidalari',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_odob_axloq_qoidalari.pdf'
+        title:'',
+        url:''
     },
     {
         title:'Lokal hujjatlar',
@@ -80,24 +73,24 @@ export const jarayonLink = [
         url: "https://zarkentbmsm.uz/PDFlar/34_BMSM_Ish_rejasi.pdf"
     },
     {
-        title:' Ochiq darslar jadvali ',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Ochiq_darslar.pdf' 
+        title:'Umumiy Fortopiano',
+        url:'https://docs.google.com/document/d/1fqXS3CXGfnTEOgYZDVhDGhhLyR-DrBtp/edit' 
     },
     {
-        title:"O'quv dasturlari",
-        url:'/oquvDasturi'
+        title:"Aktiyorlik Mahorati",
+        url:'https://docs.google.com/document/d/1zZHCI6ap9MvcHX9mHGhsQ8-8ZCy3DtFX/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
     {
-        title:"Davlat ta'lim talablari",
-        url:'https://zarkentbmsm.uz/PDFlar/Davlat_talim_talabi.pdf'
+        title:"O'zbek hamrohligi",
+        url:'https://docs.google.com/document/d/124SVJ10bxcbu9_9LZ4bSsxLdbYigPsK6/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
     {
-        title:'Tanlovlar, festivallar',
-        url:'/festival'
+        title:"An-anaviy cholg'u",
+        url:'https://docs.google.com/document/d/1rd5tWN5RVDCelCRh5p3tmM4c92coDwVL/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
     {
-        title:'Viloyat BMSMlar direktorlar Kengashi ish rejasi',
-        url:'https://zarkentbmsm.uz/PDFlar/Direktorlar_kengashi_ish_rejasi.pdf'
+        title:'Maxsus fortopiano',
+        url:'https://docs.google.com/document/d/1qFB0e5PMNdi23-gndlXVzGUaLT8nc13u/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
 
     
