@@ -15,7 +15,7 @@ const MaktabRahbaryati = () => {
            <img className='w-full' src={raxbar1} alt="" />
           </div>
           <div className='mt-7 md:mb-10'>
-            <h2 className='text-3xl font-bold'>Tilavova Hanifa</h2>
+            <h2 className='text-3xl font-bold'>Tilavova Hanifa Hasanovna</h2>
             <h3 className='text-2xl my-3 font-medium'>19-sonli bolalar musiqa va san’at maktabi <br />Direktori</h3>
           </div>
         </div>
@@ -27,7 +27,7 @@ const MaktabRahbaryati = () => {
            <img className='w-full' src={raxbar2} alt="" />
           </div>
           <div className='mt-7 md:mb-10'>
-            <h2 className='text-3xl font-bold'>Temirov Sharofiddin Kuvatovich</h2>
+            <h2 className='text-3xl font-bold'>Temirov Sharofiddin Quvatovich</h2>
             <h3 className='text-2xl my-3 font-medium'>19-sonli bolalar musiqa va san’at maktabi <br />O'quv ishlari bo'yicha direktor o'rinbosari</h3>
           </div>
         </div>

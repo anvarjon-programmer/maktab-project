@@ -52,10 +52,10 @@ const Footer = () => {
        </div>
        <div>
        <div className='flex items-center gap-2 text-xl text-white'>
-        <Link to={''} className='text-xl'>
+        <Link to={'https://t.me//BMSM19'} className='text-xl'>
         <FaTelegram/>
         </Link>
-        <Link to={''} className='text-xl'>
+        <Link to={'https://www.instagram.com/19_son_bmsm?igsh=YXJkaWppeGxmOTV1'} className='text-xl'>
         <IoLogoInstagram/>
         </Link>
         <Link to={''} className='text-xl'>
