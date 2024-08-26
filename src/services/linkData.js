@@ -32,6 +32,10 @@ export default documents
 
 export const bmsLink = [
     {
+        title:'BMS Haqida',
+        url: "/bmshaqida"
+    },
+    {
         title:'Maktab rahbariyati',
         url: "/maktabRahbaryati"
     },

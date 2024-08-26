@@ -8,6 +8,7 @@ import Festival from './pages/Festival'
 import Galery from './pages/Galery'
 import Tashabus from './pages/Tashabus'
 import Yanglilar from './pages/Yanglilar'
+import BmsHaqida from './pages/BMS-togrisida/BmsHaqida'
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
             <Route path='/festival' element={<Festival/>}/>
             <Route path='/tashabus' element={<Tashabus/>}/>
             <Route path='/yangliklar' element={<Yanglilar/>}/>
+            <Route path='/bmshaqida' element={<BmsHaqida/>}/>
           </Routes> 
          <Footer/>
         </BrowserRouter>
