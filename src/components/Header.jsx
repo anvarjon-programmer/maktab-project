@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo2.png';
+import logo from '../assets/19BMSlogo.jpg'
 import { useState } from 'react';
 import documents, { bmsLink, jarayonLink } from '../services/linkData';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -9,6 +9,7 @@ const Header = () => {
   const [isBmsDropdownOpen, setIsBmsDropdownOpen] = useState(false);
   const [isJarayonDropdownOpen, setIsJarayonDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isoquvDasturi,setIsOquvDasturi] = useState(false)
 /////////fdkfdkjf
   return (
     <header className="bg-white shadow-md">
@@ -113,8 +114,27 @@ const Header = () => {
             <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
               <Link to='/galery'>Maktab galereyasi</Link>
             </li>
-            {/* <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white'>
-              <Link to='/'>Аloqa</Link>
+
+            {/* <li className='bg-[#268382] w-full md:w-44 h-14 flex items-center justify-center text-white relative'
+              onMouseEnter={() => setIsOquvDasturi(true)}
+              onMouseLeave={() => setIsOquvDasturi(false)}
+            >
+              <Link to='/' className='text-center'>
+                O‘quv jarayoni
+              </Link>
+              {isoquvDasturi && (
+                <div className="absolute top-10 left-0 z-10 bg-[#268382] divide-y divide-gray-100 shadow w-full md:w-72 text-white mt-2">
+                  <ul className="py-2 text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                    {jarayonLink.map((element, index) => (
+                      <li className='border-white border-t text-center h-14 flex items-center justify-center' key={index}>
+                        <Link to={element.url} className="block px-4 py-2 dark:hover:bg-gray-600 text-sm">
+                          {element.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </li> */}
           </ul>
         </div>

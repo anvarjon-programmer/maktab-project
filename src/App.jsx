@@ -9,6 +9,7 @@ import Galery from './pages/Galery'
 import Tashabus from './pages/Tashabus'
 import Yanglilar from './pages/Yanglilar'
 import BmsHaqida from './pages/BMS-togrisida/BmsHaqida'
+import Yutuqlar from './pages/Yutuqlar'
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
             <Route path='/tashabus' element={<Tashabus/>}/>
             <Route path='/yangliklar' element={<Yanglilar/>}/>
             <Route path='/bmshaqida' element={<BmsHaqida/>}/>
+            <Route path='/yutuqlar' element={<Yutuqlar/>}/>
           </Routes> 
          <Footer/>
         </BrowserRouter>

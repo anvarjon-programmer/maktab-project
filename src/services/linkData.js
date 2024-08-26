@@ -36,6 +36,10 @@ export const bmsLink = [
         url: "/bmshaqida"
     },
     {
+        title:'erishilgan yutuqlar',
+        url: "/yutuqlar"
+    },
+    {
         title:'Maktab rahbariyati',
         url: "/maktabRahbaryati"
     },
