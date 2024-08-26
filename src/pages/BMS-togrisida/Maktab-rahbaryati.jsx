@@ -51,7 +51,7 @@ const MaktabRahbaryati = () => {
            <img className='w-full' src={raxbar4} alt="" />
           </div>
           <div className='mt-7 md:mb-10'>
-            <h2 className='text-3xl font-bold'>Aganizov Tolibjon Muzrapovich</h2>
+            <h2 className='text-3xl font-bold'>Aganiyazov Tolibjon Muzrapovich</h2>
             <h3 className='text-2xl my-3 font-medium'>19-sonli bolalar musiqa <br />va san’at maktabi bosh hisobchisi</h3>
           </div>
         </div>
