@@ -10,6 +10,7 @@ import Tashabus from './pages/Tashabus'
 import Yanglilar from './pages/Yanglilar'
 import BmsHaqida from './pages/BMS-togrisida/BmsHaqida'
 import Yutuqlar from './pages/Yutuqlar'
+import DetailPage from './pages/DetailPage'
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
             <Route path='/yangliklar' element={<Yanglilar/>}/>
             <Route path='/bmshaqida' element={<BmsHaqida/>}/>
             <Route path='/yutuqlar' element={<Yutuqlar/>}/>
+            <Route path="/detail/:id" element={<DetailPage />} />
           </Routes> 
          <Footer/>
         </BrowserRouter>
