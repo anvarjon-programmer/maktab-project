@@ -63,11 +63,11 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasining muassisi:',
-        addition:' Toshkent viloyati hokimligi'
+        addition:'Qashqadaryo viloyati'
     },
     {
         title:'Ta’lim muassasasining yuqori organi: ',
-        addition:'Toshkent viloyati Madaniyat boshqarmasi'
+        addition:'Mirishkor tuman Pomiq BMS'
     },
     // {
     //     title:'',
@@ -83,7 +83,7 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasining identifikatsiya raqami (STIR):',
-        addition:' 308230372'
+        addition:'20719172'
     },
     {
         title:'Ta’lim muassasasining manzili:',
@@ -99,15 +99,15 @@ export const bms = [
     },
     {
         title:'BMSM direktori: ',
-        addition:'Raxmonov Umidjon Ibroxim o‘g‘li'
+        addition:'Tilavova Hanifa Hasanovna'
     },
     {
         title:'BMSM direktorining o‘quv-ma’rifiy ishlar bo‘yicha o‘rinbosari:',
-        addition:'Olimjonov Ilyosjon Ibroxim o‘g‘li'
+        addition:'Temirov Sharofiddin Quvatovich'
     },
     {
         title:'BMSM direktorining xo‘jalik ishlari bo‘yicha o‘rinbosari:',
-        addition:'i: O‘tbosarov Ilxom Ixtiyor o‘g‘li'
+        addition:"O'razov Do'smurod Ruzikulovich"
     },
     // {
     //     title:'Aloqa telefoni:',

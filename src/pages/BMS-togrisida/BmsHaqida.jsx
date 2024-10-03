@@ -35,7 +35,7 @@ const BmsHaqida = () => {
             </ul>
 
             <h3 className='text-xl mt-2'>
-            Maktabda  22 nafar asosiy va 5 nafar o`rindosh o`qituvchilar faoliyat yuritishadi.
+            Maktabda  25 nafar asosiy va 5 nafar o`rindosh o`qituvchilar faoliyat yuritishadi.
             </h3>
 
             <h3 className='text-xl mt-4'>

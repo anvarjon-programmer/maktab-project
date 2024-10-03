@@ -19,10 +19,9 @@ const Importantinfo = () => {
         <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
         Aloqa telefoni:
         <b>
-          <Link to='#'>(+998) 93-195-91-27, 93-166-66-99</Link>
+          <Link to='#'>(+998) 93-697-27-94, 94-296-08-93</Link>
         </b>
             </li>
-
             <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
         Elektron pochta manzili:
         <b>
