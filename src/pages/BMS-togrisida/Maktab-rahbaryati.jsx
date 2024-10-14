@@ -9,6 +9,7 @@ import raxbar4 from '../../assets/АГАНИЯЗОВ-ТОЛИБЖОН.jpg'
 const MaktabRahbaryati = () => {
   return (
     <section className='bg-[#eee] mt-10'>
+      <div className='pt-10'>
       <div className='bg-white max-w-[1000px] pt-10 m-auto'>
         <div className='p-10 md:flex items-center justify-between gap-8'>
           <div className='md:max-w-[400px]'>
@@ -19,6 +20,7 @@ const MaktabRahbaryati = () => {
             <h3 className='text-2xl my-3 font-medium'>19- bolalar musiqa va san’at maktabi <br />Direktori</h3>
           </div>
         </div>
+      </div>
       </div>
 
       <div className='bg-white max-w-[1000px] mt-10 m-auto'>
@@ -45,6 +47,7 @@ const MaktabRahbaryati = () => {
         </div>
       </div>
 
+      <div className='pb-10'>
       <div className='bg-white max-w-[1000px] mt-10 m-auto '>
         <div className='p-10 md:flex items-center justify-between gap-8'>
           <div className='md:max-w-[300px]'>
@@ -55,6 +58,7 @@ const MaktabRahbaryati = () => {
             <h3 className='text-2xl my-3 font-medium'>19-sonli bolalar musiqa <br />va san’at maktabi bosh hisobchisi</h3>
           </div>
         </div>
+      </div>
       </div>
     </section>
   )
