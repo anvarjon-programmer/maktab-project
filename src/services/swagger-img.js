@@ -83,7 +83,7 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasining identifikatsiya raqami (STIR):',
-        addition:'20719172'
+        addition:'207191727'
     },
     {
         title:'Ta’lim muassasasining manzili:',
