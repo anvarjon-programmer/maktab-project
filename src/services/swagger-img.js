@@ -87,7 +87,7 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasining manzili:',
-        addition:'Parkent tumani, Zarkent qishlog‘i, Davlatobod MFY'
+        addition:'Qashqadaryo viloyati mirishkor tuman Pmuq shaharchasi baxariston MFY'
     },
     {
         title:'Ta’lim muassasasi ma’muriyatining ish kuni tartibi:',
