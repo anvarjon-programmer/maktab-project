@@ -55,11 +55,11 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasining to‘liq nomi:',
-        addition:"Mirishkor tumani 19-son blallar musiqa va san'at maktabi"
+        addition:"Mirishkor tumani 19-son bolalar musiqa va san'at maktabi"
     },
     {
         title:'Ta’lim muassasasining qisqartirilgan nomi:',
-        addition:'Mirishkor tumani 19-sonli BMSM'
+        addition:'Mirishkor tumani 19-son BMSM'
     },
     {
         title:'Ta’lim muassasasining muassisi:',
@@ -67,7 +67,7 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasining yuqori organi: ',
-        addition:'Mirishkor tuman Pomiq BMS'
+        addition:'Qashqadaryo viloyat madaniyat boshqarmasi'
     },
     // {
     //     title:'',
@@ -87,7 +87,7 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasining manzili:',
-        addition:'Qashqadaryo viloyati mirishkor tuman Pmuq shaharchasi baxariston MFY'
+        addition:'Qashqadaryo viloyati mirishkor tuman Pomuq shaharchasi baxariston MFY'
     },
     {
         title:'Ta’lim muassasasi ma’muriyatining ish kuni tartibi:',
@@ -99,7 +99,7 @@ export const bms = [
     },
     {
         title:'BMSM direktori: ',
-        addition:'Tilavova Hanifa Hasanovna'
+        addition:'Tilavova Hanipa Hasanovna'
     },
     {
         title:'BMSM direktorining o‘quv-ma’rifiy ishlar bo‘yicha o‘rinbosari:',
